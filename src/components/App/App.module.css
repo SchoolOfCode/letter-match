@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap");
+.container {
+  font-family: "Spicy Rice", cursive;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  grid-gap: 0.3rem;
+  justify-items: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: radial-gradient(yellow, orange);
+}
+
+.container > p:hover {
+  color: hotpink;
+}
+.container > p {
+  font-size: 3.5em;
+  cursor: pointer;
+}
